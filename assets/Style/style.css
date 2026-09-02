@@ -1,9 +1,53 @@
 *{
-    margin : 0;
-    padding : 0;
+    margin: 0px;
+    padding: auto;
+}
+/* Sub-logo styling  class-selector*/
+.sub-logo {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
 }
 
-.sub-logo{
-    color : red; 
+.nav-link:hover{
+    border-bottom: 1px solid red;
+}
 
+.nav-link:active{
+    border-bottom: 1px solid red;
+    font-size: 18px;
+}
+
+/* h2 + ul > li:first-child {
+    color:rgb(255, 140, 0);
+}
+
+h2 + ul > li:last-child {
+    color:rgb(255, 140, 0);
+} */
+
+h2 + ul > li:nth-child(odd) {
+    color:rgb(255, 140, 0);
+}
+
+.Required::after{
+    content: "*";
+    color: red;
+}
+.Required::selection{
+    color: red;
+    background-color: yellow;
+}
+
+table{
+    border:1px solid black;
+    text-align: center;
+}
+
+table th, td{
+    border:1px solid black;
+    padding:5px;
+}
+
+th, td{
+    padding: 20px;
 }
