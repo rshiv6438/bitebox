@@ -1,7 +1,15 @@
 *{
-    margin: 0px;
-    padding: auto;
+ 
+    margin: 0;
+ 
+    padding: 0;
+ 
+    box-sizing: border-box;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+ 
 }
+
 /* Sub-logo styling  class-selector*/
 .sub-logo {
     color: rgb(255, 0, 0);
@@ -9,7 +17,7 @@
 }
 
 .nav-link:hover{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #ff0000;
 }
 
 .nav-link:active{
