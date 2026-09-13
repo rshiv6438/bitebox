@@ -333,12 +333,41 @@
 
 }
 
+#cart-hero{
+
+    background-image: url("../images/cart-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:320px;
+    padding: 35px 80px;
+    text-align: center;
+
+}
+
+
+#cart-hero h1
+{
+    color: #ffffff;
+
+    font-family: "Lobster", cursive;
+
+    font-size: 58px;
+
+    font-weight: 400;
+
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+
+    margin-bottom: 20px;
+}
+
+
 
 
 
 /* Cart Hero Heading */
 
-#cart-hero h1{
+#cart-hero h2{
     color: #ffffff;
 
     font-family: "Lobster", cursive;
